@@ -1,0 +1,63 @@
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#navbar-texto{
+    margin-left: 180px;
+}
+
+.conteudo{
+    font-size: larger;
+    color: rgb(46, 45, 45);
+    background-color: white;
+    text-align: justify;
+    padding: 70px 180px;
+    height: 200px;
+}
+
+body, html{
+    margin: 0;
+    height: 100%;
+}
+
+/* efeito parallax */
+.caixa1, .caixa2, .caixa3 {
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1{
+    background-image: url(fotos/img-2.jpg);
+}
+
+.caixa2{
+    background-image: url(fotos/img-3.jpg);
+}
+
+.caixa3{
+    background-image: url(fotos/img-4.jpg);
+}
+
+.conteudo-titulo{
+    position: absolute;
+    left: 0%;
+    top: 53%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #343A40;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    border-radius: 8%;
+}
